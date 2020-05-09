@@ -1,5 +1,7 @@
-import React from 'react';
-import './search-box.styles.css';
+import React from "react";
+
+// Import styles
+import "./search-box.styles.css";
 
 export const SearchBox = ({ placeholder, handleChange }) => (
   <input
